@@ -1,8 +1,10 @@
 applications:
-- name: Kitura-Starter
+- path: .
   memory: 256M
   instances: 1
-  random-route: true
+  domain: mybluemix.net
+  name: IBMDevConnect
+  host: IBMDevConnect
   disk_quota: 1024M
-  command: Kitura-Starter
   buildpack: swift_buildpack
+  command: Kitura-Starter
